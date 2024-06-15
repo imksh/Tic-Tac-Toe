@@ -38,9 +38,9 @@ function reset(){
     btn.disabled=false;
     var btn= document.getElementById("btn9");
     btn.disabled=false;
-
-    document.getElementById("afterwin").style.display = "none";
 count=0;
+    document.getElementById("afterwin").style.display = "none";
+
 
 }
 
