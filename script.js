@@ -121,6 +121,7 @@ function logic(){
     }else if(count=="9"){
       document.getElementById("winner").innerHTML="No One";
       document.getElementById("afterwin").style.display = "flex";
+count=0;
     }
     button.disabled=true;
 }
