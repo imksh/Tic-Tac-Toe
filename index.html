@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="">
+    <header><h1>Tic Tac Toe</h1></header>
+    <main>
+        <div id="allcontain">
+        <div class="info">
+            <h2>X : <span id="playera"></span></h2>
+            <h2>O : <span id="playerb"></span></h2>
+        </div>
+        <div class="box">
+            
+        <div class="container">
+            
+            <button id="btn1" class="button" onclick="one()"><span id="one1"></span></button>
+            <button id="btn2"  class="button" onclick="two()"><span id="two2"></span></button>
+            <button id="btn3"  class="button" onclick="three()"><span id="three3"></span></button>
+            <button id="btn4"  class="button" onclick="four()"><span id="four4"></span></button>
+            <button id="btn5"  class="button" onclick="five()"><span id="five5"></span></button>
+            <button id="btn6"  class="button" onclick="six()"><span id="six6"></span></button>
+            <button id="btn7"  class="button" onclick="seven()"><span id="seven7"></span></button>
+            <button id="btn8"  class="button" onclick="eight()"><span id="eight8"></span></button>
+            <button id="btn9"  class="button" onclick="nine()"><span id="nine9"></span></button>
+        </div>
+    </div>
+    <div id="morebtn">
+    <button class="btn" onclick="reset()">Reset</button>
+        <button class="btn" onclick="history.go(0)">New Game</button>
+    </div>
+    <div id="startpage">
+        <div class="diva">
+            <input id="player1" type="text" placeholder="x" required>
+            <input id="player2" type="text" placeholder="o" required>
+            <button onclick="start();logic()" class="btn">Start</button>
+            <h3>Developed by</h3>
+            <h1>Karan Sharma</h1>
+        </div>
+    </div>
+    <div id="afterwin">
+        <div id="divc">
+        <h2><span id="winner"></span> is winner</h2>
+    </div>
+        <div class="divb">
+            <button class="btn" onclick="reset()">Play Again</button>
+            <button class="btn" onclick="history.go(0)">New Game</button>
+    </div>
+    </div>
+</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
