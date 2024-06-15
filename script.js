@@ -118,6 +118,9 @@ function logic(){
     }else if(three3 ==five5  &&three3  ==seven7  &&three3  ==o ){
         document.getElementById("winner").innerHTML=player2;
         document.getElementById("afterwin").style.display = "flex";
+    }else if(count=="9"){
+      document.getElementById("winner").innerHTML="No One";
+      document.getElementById("afterwin").style.display = "flex";
     }
     button.disabled=true;
 }
