@@ -40,6 +40,7 @@ function reset(){
     btn.disabled=false;
 
     document.getElementById("afterwin").style.display = "none";
+count=0;
 
 }
 
