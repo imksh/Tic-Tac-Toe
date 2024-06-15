@@ -21,7 +21,7 @@ header{
     width: 100%;
     position: absolute;
     top: 7vh;
-    padding: 20vh 0vh 0vh 0vh;
+    padding: 15vh 0vh 0vh 0vh;
     align-content: center;
     backdrop-filter: blur(5px);
 }
@@ -109,8 +109,8 @@ button:hover{
     justify-content: center;
     width: 100%;
     position: absolute;
-    top: 20vh;
-    padding: 20vh 0vh 0vh 0vh;
+    top: 15vh;
+    padding: 15vh 0vh 0vh 0vh;
     align-content: center;
     backdrop-filter: blur(4px);
 
